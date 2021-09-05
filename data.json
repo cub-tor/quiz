@@ -1,0 +1,905 @@
+[	{"preguntas":[{
+			"id": "0",
+			"Pregunta": "¿Qué interacciones conservan la simetría de paridad (se comportan igual que su imagen especular)?",
+			"correcta": "De las cuatro fuerzas fundamentales de la naturaleza (gravedad, electromagnetismo, fuerza nuclear fuerte y nuclear débil) la ínica que no respeta esta simetría es la fuerza nuclear débil",
+			"Respuesta2": "Las interacciones nucleares fuertes",
+			"Respuesta3": "Todas menos la electromagnética"
+		},
+		{
+			"id": "1",
+			"Pregunta": "¿Qué teorema asocia las simetrías de la acción con leyes de conservación?",
+			"correcta": "El teorema de Noether",
+			"Respuesta2": "El teorema de Fermat",
+			"Respuesta3": "El teorema del virial"
+		},
+		{
+			"id": "2",
+			"Pregunta": "¿Quién es conocida como la reina del carbón?",
+			"correcta": "Mildred Dresselhaus",
+			"Respuesta2": "Cameron Howe",
+			"Respuesta3": "Jocelyn Bell"
+		},
+		{
+			"id": "3",
+			"Pregunta": "¿Qué es la fisión nuclear?",
+			"correcta": "La división del núcleo en otros núcleos",
+			"Respuesta2": "La creación de un nuevo átomo por la unión de varios núcleos",
+			"Respuesta3": "El mecanismo por el que las estrellas producen energía"
+		},
+		{
+			"id": "4",
+			"Pregunta": "¿Cuál de éstos es un tipo de quark?",
+			"correcta": "Encanto",
+			"Respuesta2": "Honrado",
+			"Respuesta3": "Enamorado"
+		},
+		{
+			"id": "5",
+			"Pregunta": "¿Cuál de estos métodos se puede usar para detectar partículas?",
+			"correcta": "Placas de emulsión nuclear",
+			"Respuesta2": "Cámaras de energía oscura",
+			"Respuesta3": "Neuralizadores"
+		},
+		{
+			"id": "6",
+			"Pregunta": "¿Qué es el bosón de Higgs?",
+			"correcta": "Una partícula que tiene que ver con la masa de otras partículas",
+			"Respuesta2": "Una partícula bosonuda",
+			"Respuesta3": "La primera partícula de antimateria descubierta"
+		},
+		{
+			"id": "7",
+			"Pregunta": "¿Para qué se puede utilizar un haz de positronio?",
+			"correcta": "Para desvelar la estructura de átomos y moléculas",
+			"Respuesta2": "Para conquistar el universo",
+			"Respuesta3": "Para mantenerse siempre positivo"
+		},
+		{
+			"id": "8",
+			"Pregunta": "¿Es posible frenar la luz? ?",
+			"correcta": "Sí",
+			"Respuesta2": "No",
+			"Respuesta3": "Solo si eres Dazzler"
+		},
+		{
+			"id": "9",
+			"Pregunta": "¿Cuál de éstos es un tipo de quark?",
+			"correcta": "Top",
+			"Respuesta2": "Crack",
+			"Respuesta3": "Bajito"
+		},
+		{
+			"id": "10",
+			"Pregunta": "El sol es una estrella de clase... ?",
+			"correcta": "G, una enana amarilla",
+			"Respuesta2": "B, una supergigante verde",
+			"Respuesta3": "O, una gigante azul"
+		},
+		{
+			"id": "11",
+			"Pregunta": "¿De qué están compuestas las estrellas mayoritariamente?",
+			"correcta": "Hidrógeno y helio",
+			"Respuesta2": "Carbono y oxígeno",
+			"Respuesta3": "Hidrógeno y carbono"
+		},
+		{
+			"id": "12",
+			"Pregunta": "Las estrellas más alejadas del centro de nuestra galaxia... ?",
+			"correcta": "Giran más rápido de lo esperado",
+			"Respuesta2": "Giran más lento de lo esperado",
+			"Respuesta3": "No giran"
+		},
+		{
+			"id": "13",
+			"Pregunta": "La primera estrella enana marrón descubierta tiene una masa de...",
+			"correcta": "55 veces la masa de Júpiter",
+			"Respuesta2": "5 veces la masa de Júpiter",
+			"Respuesta3": "555 veces la masa de Júpiter"
+		},
+		{
+			"id": "14",
+			"Pregunta": "¿Cuántas lunas tiene Saturno?",
+			"correcta": "Al menos 62",
+			"Respuesta2": "Solo una",
+			"Respuesta3": "666"
+		},
+		{
+			"id": "15",
+			"Pregunta": "¿En cuál de estas lunas hemos visto lagos de hidrocarburos?",
+			"correcta": "Titán, luna de Saturno",
+			"Respuesta2": "Deimos, luna de Marte",
+			"Respuesta3": "Ío, luna de Jípiter"
+		},
+		{
+			"id": "16",
+			"Pregunta": "¿Cuántas estrellas con varios planetas se han descubierto directamente hasta ahora?",
+			"correcta": "Más de 500",
+			"Respuesta2": "Más de 5000",
+			"Respuesta3": "Entre 50 y 100"
+		},
+		{
+			"id": "17",
+			"Pregunta": "¿Dónde está el telescopio Hubble? ",
+			"correcta": "En el espacio",
+			"Respuesta2": "En Canarias",
+			"Respuesta3": "En Arecibo"
+		},
+		{
+			"id": "18",
+			"Pregunta": "¿Quién fue la primera mujer en el espacio?",
+			"correcta": "Valentina Tereshkova",
+			"Respuesta2": "Sally Ride",
+			"Respuesta3": "Valentina Kerbal"
+		},
+		{
+			"id": "19",
+			"Pregunta": "¿Cuántas mujeres astronautas ha habido?",
+			"correcta": "Más de 60",
+			"Respuesta2": "Entre 20 y 60",
+			"Respuesta3": "Menos de 20"
+		},
+		{
+			"id": "20",
+			"Pregunta": "¿Qué es un púlsar?",
+			"correcta": "El núcleo muy denso que queda después de que ciertas estrellas colapsen",
+			"Respuesta2": "Una estrella muy grande hecha de antimateria",
+			"Respuesta3": "Dos agujeros negros conectados"
+		},
+		{
+			"id": "21",
+			"Pregunta": "¿Quién descubrió la nebulosa Cabeza de Caballo?",
+			"correcta": "Mina Fleming",
+			"Respuesta2": "Cecilia Payne",
+			"Respuesta3": "Maria Mitchell"
+		},
+		{
+			"id": "22",
+			"Pregunta": "¿Quién fue la primera mujer que descubrió un cometa?",
+			"correcta": "Maria Kirch",
+			"Respuesta2": "Caroline Herschel",
+			"Respuesta3": "Maria Mitchell"
+		},
+		{
+			"id": "23",
+			"Pregunta": "¿Quién de estas mujeres trabajó como computadora?",
+			"correcta": "Maria Mitchell",
+			"Respuesta2": "Vera Rubin",
+			"Respuesta3": "Sally Ride"
+		},
+		{
+			"id": "24",
+			"Pregunta": "¿Quién fue la primera estadounidense en el espacio?",
+			"correcta": "Sally Ride",
+			"Respuesta2": "Vera Rubin",
+			"Respuesta3": "Maria Mitchell"
+		},
+		{
+			"id": "25",
+			"Pregunta": "¿Quién fue la primera astronauta hispana?",
+			"correcta": "Ellen Ochoa",
+			"Respuesta2": "Gabriela González",
+			"Respuesta3": "Alicia Sintes"
+		},
+		{
+			"id": "26",
+			"Pregunta": "La primera evidencia de actividad volcánica fuera de nuestro planeta se descubrió en...",
+			"correcta": "Ío, luna de Júpiter",
+			"Respuesta2": "Encélado, luna de Júpiter",
+			"Respuesta3": "Deimos, luna de Marte"
+		},
+		{
+			"id": "27",
+			"Pregunta": "¿Cuál de este tipo de estrellas sirven para medir distancias en el universo?",
+			"correcta": "Las Cefeidas",
+			"Respuesta2": "Las enanas marrones",
+			"Respuesta3": "Las gigantes rojas"
+		},
+		{
+			"id": "28",
+			"Pregunta": "¿Cambian las galaxias de forma con el tiempo?",
+			"correcta": "!Claro!",
+			"Respuesta2": "Solo unas pocas",
+			"Respuesta3": "No, las galaxias, galaxias son estáticas"
+		},
+		{
+			"id": "29",
+			"Pregunta": "¿Cómo se pueden ver planetas en formación en estrellas parecidas al sol?",
+			"correcta": "Con telescopios infrarrojos",
+			"Respuesta2": "Con telescopios de Rayos X",
+			"Respuesta3": "Con muy buena vista y mucha suerte"
+		},
+		{
+			"id": "30",
+			"Pregunta": "Para detectar ondas gravitacionales se han utilizado...",
+			"correcta": "Interferómetros láser",
+			"Respuesta2": "Telescopios infrarrojos",
+			"Respuesta3": "Trampas de materia oscura"
+		},
+		{
+			"id": "31",
+			"Pregunta": "¿Cuál de estas divulgadoras hizo una serie web sobre Henrietta Leavitt?",
+			"correcta": "Natalia Ruiz Zelmanovitch",
+			"Respuesta2": "Ángela Monasor",
+			"Respuesta3": "Patricia Rodríguez"
+		}
+	]},
+	{"preguntas": [{
+			"id": "0",
+			"Pregunta": "¿Cuál de estos materiales se usa en chalecos antibalas?",
+			"correcta": "Kevlar",
+			"Respuesta2": "Klystron",
+			"Respuesta3": "Tardiscon"
+		},
+		{
+			"id": "1",
+			"Pregunta": "El agujero de ozono fue causado principalmente por...",
+			"correcta": "Clorofluorocarbonos",
+			"Respuesta2": "Dióxido de carbono",
+			"Respuesta3": "Hidrocarburos aromáticos"
+		},
+		{
+			"id": "2",
+			"Pregunta": "¿Quién descubrió el Francio?",
+			"correcta": "Marguerite Perey",
+			"Respuesta2": "Hipatia de Alejandria",
+			"Respuesta3": "Napoleón Bonaparte"
+		},
+		{
+			"id": "3",
+			"Pregunta": "¿Quién es considerada la madre de la química moderna?",
+			"correcta": "Marie-Anne Lavoisier",
+			"Respuesta2": "Marie Curie",
+			"Respuesta3": "Cecilia Payne"
+		},
+		{
+			"id": "4",
+			"Pregunta": "¿Quién descubrió la estructura de la penicilina, la vitamina B12 y la insulina humana? ??",
+			"correcta": "Dorothy Crowfoot Hodgkin",
+			"Respuesta2": "Alexander Fleming",
+			"Respuesta3": "Valentina Kerbal"
+		},
+		{
+			"id": "5",
+			"Pregunta": "¿Quién consiguió crear por primera vez elementos radiactivos? ?",
+			"correcta": "Irène Joliot-Curie",
+			"Respuesta2": "Marie Curie",
+			"Respuesta3": "Lise Meitner"
+		},
+		{
+			"id": "6",
+			"Pregunta": "¿Qué permite el Baño María?",
+			"correcta": "Calentar algo de forma indirecta",
+			"Respuesta2": "Limpiar los pecados",
+			"Respuesta3": "Hervir un líquido rápidamente"
+		},
+		{
+			"id": "7",
+			"Pregunta": "¿Qué son los diagramas de Richardson?",
+			"correcta": "La representación en 3D de proteínas",
+			"Respuesta2": "La representación virtual de bacterias",
+			"Respuesta3": "La representación en 2D de proteínas"
+		},
+		{
+			"id": "8",
+			"Pregunta": "¿Qué es la azatioprina?",
+			"correcta": "Un fármaco inmunosupresor",
+			"Respuesta2": "Un fármaco contra el VIH",
+			"Respuesta3": "Un fármaco contra la gripe"
+		},
+		{
+			"id": "9",
+			"Pregunta": "¿En qué se basó el primer tratamiento efectivo contra la malaria? ??",
+			"correcta": "En compuestos sintetizados a partir de la artemisina",
+			"Respuesta2": "En compuestos sintetizados a partir de la quinina",
+			"Respuesta3": "En compuestos sintetizados a partir de la corteza del sauce"
+		},
+		{
+			"id": "10",
+			"Pregunta": "¿Cuándo se fabricó el primer antibiótico (por síntesis química)?",
+			"correcta": "1949",
+			"Respuesta2": "1989",
+			"Respuesta3": "1890"
+		},
+		{
+			"id": "11",
+			"Pregunta": "¿Qué efecto tienen las drogas basadas en alcaloides de la vinca?",
+			"correcta": "Inhiben la división de las células tumorales",
+			"Respuesta2": "Inhiben la caída del cabello",
+			"Respuesta3": "Alivian el dolor de las hemorroides"
+		},
+		{
+			"id": "12",
+			"Pregunta": "La estructura de los ribosomas se pudo descubrir con...",
+			"correcta": "Cristalografía de rayos X",
+			"Respuesta2": "Un microscopio basado en antimateria",
+			"Respuesta3": "Un ribosometro"
+		},
+		{
+			"id": "13",
+			"Pregunta": "El citrato puede estar relacionado con...",
+			"correcta": "Problemas en los huesos",
+			"Respuesta2": "Las agujetas",
+			"Respuesta3": "Las migrañas"
+		},
+		{
+			"id": "14",
+			"Pregunta": "¿Es bueno o malo que el ozono se destruya en la troposfera?",
+			"correcta": "Bueno",
+			"Respuesta2": "Malo",
+			"Respuesta3": "Neutro"
+		},
+		{
+			"id": "15",
+			"Pregunta": "¿Qué  efecto tienen los halocarbonos sobre el ozono?",
+			"correcta": "Lo destruyen",
+			"Respuesta2": "Lo crean",
+			"Respuesta3": "Lo transforman en ozono no tóxico"
+		},
+		{
+			"id": "16",
+			"Pregunta": "¿Qué  elemento debido a la contaminación se ha encontrado en el cerebro de calderones varados?",
+			"correcta": "Mercurio",
+			"Respuesta2": "Uranio",
+			"Respuesta3": "Plutonio"
+		},
+		{
+			"id": "17",
+			"Pregunta": "¿Cuál es una de las utilidades de los isótopos radiactivos? ?",
+			"correcta": "Medicina nuclear",
+			"Respuesta2": "Elaboración de transgénicos",
+			"Respuesta3": "Tejidos para trajes de astronautas"
+		},
+		{
+			"id": "18",
+			"Pregunta": "¿Qué  son los isótopos?",
+			"correcta": "Átomos de un mismo elemento, con una cantidad diferente de neutrones",
+			"Respuesta2": "Bebidas para después del deporte",
+			"Respuesta3": "Átomos de un mismo elemento, con una cantidad diferente de electrones"
+		},
+		{
+			"id": "19",
+			"Pregunta": "¿Quién acuñó el término radiactividad?",
+			"correcta": "Marie Curie",
+			"Respuesta2": "Lise Meitner",
+			"Respuesta3": "Carrie Fisher"
+		},
+		{
+			"id": "20",
+			"Pregunta": "¿Podemos usar los virus para fines científicos?",
+			"correcta": "Sí, por ejemplo, amplificar ADN",
+			"Respuesta2": "!No! Los virus son muy peligrosos",
+			"Respuesta3": "Se usan para reducir ADN"
+		},
+		{
+			"id": "21",
+			"Pregunta": "¿Cómo se lee el ADN?",
+			"correcta": "Siempre en la misma dirección",
+			"Respuesta2": "En sentido antihorario",
+			"Respuesta3": "Con google translate"
+		},
+		{
+			"id": "22",
+			"Pregunta": "¿Cuál de estas divulgadoras es además química?",
+			"correcta": "Adela Muñoz",
+			"Respuesta2": "Laura Morrón",
+			"Respuesta3": "Esther Sánchez"
+		}
+	]},
+	{"preguntas": [{
+			"id": "0",
+			"Pregunta": "¿Quién ha sido la única mujer galardonada con la Medalla Fields (el Nobel de las Matemáticas)?",
+			"correcta": "Maryam Mirzakhani",
+			"Respuesta2": "Sofia Kovalevskaya",
+			"Respuesta3": "Sophie Germain"
+		},
+		{
+			"id": "1",
+			"Pregunta": "¿Qué es la transformada de ondículas (wavelets)?",
+			"correcta": "Un tipo de transformada que analiza señales en tiempo-frecuencia",
+			"Respuesta2": "Una transformada espacio-temporal",
+			"Respuesta3": "Una transformada para las ondas de radio pequeñas"
+		},
+		{
+			"id": "2",
+			"Pregunta": "En los sistemas descritos por la teoría del caos, un pequeño cambio... ",
+			"correcta": "En las condiciones iniciales supone un cambio enorme en las finales",
+			"Respuesta2": "Hace que las mariposas provoquen huracanes al aletear",
+			"Respuesta3": "En los parámetros cambiaría mucho las ecuaciones"
+		},
+		{
+			"id": "3",
+			"Pregunta": "¿De qué trata la teoría de la computabilidad?",
+			"correcta": "De los problemas de decisión que pueden ser resueltos con un algoritmo",
+			"Respuesta2": "De cómo realizar operaciones",
+			"Respuesta3": "De la resolución de ecuaciones por métodos elementales"
+		},
+		{
+			"id": "4",
+			"Pregunta": "¿Se puede oír la forma de un tambor (deducir la forma exacta a partir del sonido que produce)?",
+			"correcta": "No",
+			"Respuesta2": "Sí",
+			"Respuesta3": "Sílo para \"tambores bidimensionales\""
+		},
+		{
+			"id": "5",
+			"Pregunta": "La geometría algebraica...",
+			"correcta": "Relaciona soluciones de polinomios con objetos geométricos",
+			"Respuesta2": "Funciona al revés que el álgebra geométrica",
+			"Respuesta3": "Se ocupa de las curvas que aparecen en las operaciones algebraicas"
+		},
+		{
+			"id": "6",
+			"Pregunta": "El problema de los diez martinis... ",
+			"correcta": "Va del comportamiento de los operadores de Schrödinger",
+			"Respuesta2": "Empieza en realidad a los nueve",
+			"Respuesta3": "Es un conocido problema de álgebra lineal"
+		},
+		{
+			"id": "7",
+			"Pregunta": "¿Qué estudia la teoría de nudos?",
+			"correcta": "La topología del encaje de círculos en un espacio tridimensional",
+			"Respuesta2": "Las soluciones de ecuaciones particularmente enrevesadas",
+			"Respuesta3": "Los encajes de homomorfismos"
+		},
+		{
+			"id": "8",
+			"Pregunta": "Los primos de Germain son...",
+			"correcta": "Un tipo de números primos",
+			"Respuesta2": "Una familia de matemáticos",
+			"Respuesta3": "Números que parecen primos, pero no lo son"
+		},
+		{
+			"id": "9",
+			"Pregunta": "La bruja de Agnesi...",
+			"correcta": "Es una curva",
+			"Respuesta2": "Es una matemática malvada",
+			"Respuesta3": "Es una fórmula matemática"
+		},
+		{
+			"id": "10",
+			"Pregunta": "El conjunto de los números reales con la multiplicación es... ",
+			"correcta": "Un grupo, si excluimos al cero",
+			"Respuesta2": "Un grupo, si incluimos al cero",
+			"Respuesta3": "Un grupo en cualquier caso"
+		},
+		{
+			"id": "11",
+			"Pregunta": "¿Cuál de estas matemáticas es la impulsora de la web \"Mujeres Con Ciencia\"?",
+			"correcta": "Marta Macho",
+			"Respuesta2": "Clara Grima",
+			"Respuesta3": "María del Carmen Martínez Sancho"
+		},
+		{
+			"id": "12",
+			"Pregunta": "¿Cuál de estas matemáticas ha escrito un libro sobre la relación entre las vacunas y las matemáticas? ??",
+			"correcta": "Clara Grima",
+			"Respuesta2": "Marta Macho",
+			"Respuesta3": "Natalie Portman"
+		}
+	]},
+	{"preguntas": [
+
+		{
+			"id": "0",
+			"Pregunta": "¿Qué  estructura tiene el ADN?",
+			"correcta": "Una doble hélice",
+			"Respuesta2": "Un hipercubo",
+			"Respuesta3": "Una esfera achatada"
+		},
+		{
+			"id": "1",
+			"Pregunta": "La era de los dinosaurios ocurrió durante...",
+			"correcta": "El Mesozoico",
+			"Respuesta2": "El Paleozoico",
+			"Respuesta3": "El Cenozoico"
+		},
+		{
+			"id": "2",
+			"Pregunta": "La parte más interna de la Tierra... ",
+			"correcta": "Es un núcleo sólido",
+			"Respuesta2": "Es un núcleo líquido",
+			"Respuesta3": "Es hueca y viven animales gigantes"
+		},
+		{
+			"id": "3",
+			"Pregunta": "¿Qué describe el ciclo de Cori?",
+			"correcta": "La circulación cíclica de la glucosa y el lactato entre el músculo y el hígado",
+			"Respuesta2": "La circulación cíclica de la glucosa y la dopamina en el cerebro",
+			"Respuesta3": "La circulación cíclica de la glucosa y la serotonina entre el músculo y el corazón"
+		},
+		{
+			"id": "4",
+			"Pregunta": "Niveles bajos de dopamina están asociados a...",
+			"correcta": "Pérdida de memoria",
+			"Respuesta2": "Hiperactividad",
+			"Respuesta3": "Autismo"
+		},
+		{
+			"id": "5",
+			"Pregunta": "La primera evidencia de que no solo los seres humanos usamos herramientas vino de...",
+			"correcta": "Ver chimpancés pescando termitas con un palo",
+			"Respuesta2": "Descubrir gorilas cazando con palos",
+			"Respuesta3": "La observación de delfines con corales como trampas para peces"
+		},
+		{
+			"id": "6",
+			"Pregunta": "En la metamorfosis de un insecto, la pupa es... ",
+			"correcta": "Un estado posterior al de larva",
+			"Respuesta2": "El estado previo al de larva",
+			"Respuesta3": "El momento en que se rompe la crisálida"
+		},
+		{
+			"id": "7",
+			"Pregunta": "Sue, el fósil de Tyrannosaurus rex más completo encontrado, mide... ??",
+			"correcta": "12 metros de largo y debió de pesar unas 10 toneladas",
+			"Respuesta2": "6 metros de anchura y debía de pesar 5 toneladas",
+			"Respuesta3": "24 metros de largo y debía de pesar 1000 toneladas"
+		},
+		{
+			"id": "8",
+			"Pregunta": "¿Cuándo decimos que se da epistasis?",
+			"correcta": "Cuando la expresión de uno o más genes dependen de la expresión de otro gen",
+			"Respuesta2": "Cuando un solo gen determina la expresión de una característica",
+			"Respuesta3": "Cuando las células están programadas para morir"
+		},
+		{
+			"id": "9",
+			"Pregunta": "¿Cuántas especies de Drosophila existen?",
+			"correcta": "Al menos 1500",
+			"Respuesta2": "Menos de 150",
+			"Respuesta3": "Solo una"
+		},
+		{
+			"id": "10",
+			"Pregunta": "¿A qué ritmo se expande la dorsal Mesoatlántica?",
+			"correcta": "2 centímetros por año",
+			"Respuesta2": "2 metros por año",
+			"Respuesta3": "2 kilómetros por año"
+		},
+		{
+			"id": "11",
+			"Pregunta": "¿Qué son las células madre?",
+			"correcta": "Células que pueden diferenciarse en distintos tipos de células especializadas",
+			"Respuesta2": "Las células de los cromosomas X",
+			"Respuesta3": "Las células que se forman en los ovarios antes de la menstruación"
+		},
+		{
+			"id": "12",
+			"Pregunta": "¿Qué son los coprolitos?",
+			"correcta": "Heces fosilizadas",
+			"Respuesta2": "Un tipo de piedra volcánica",
+			"Respuesta3": "Un tipo de hongos"
+		},
+		{
+			"id": "13",
+			"Pregunta": "¿Qué es la técnica CRISPR/Cas 9?",
+			"correcta": "Una técnica de edición genética",
+			"Respuesta2": "Una técnica no invasiva para operar el corazón",
+			"Respuesta3": "Una técnica para hacer más crujientes los cereales"
+		},
+		{
+			"id": "14",
+			"Pregunta": "¿Importa el tamaño de los telómeros?",
+			"correcta": "Es mejor que sean largos",
+			"Respuesta2": "Cuanto más cortos mejor",
+			"Respuesta3": "El tamaño no importa"
+		},
+		{
+			"id": "15",
+			"Pregunta": "¿Qué es la telomerasa?",
+			"correcta": "Una enzima que permite el alargamiento de los telómeros",
+			"Respuesta2": "Una enzima que permite el acortamiento de los telómeros",
+			"Respuesta3": "Una bacteria que destruye a los telómeros"
+		},
+		{
+			"id": "16",
+			"Pregunta": "¿Sobre qué alerta el libro la primavera silenciosa?",
+			"correcta": "El peligro del uso indiscriminado de los pesticidas",
+			"Respuesta2": "El peligro del cambio climático",
+			"Respuesta3": "El peligro de la contaminación"
+		},
+		{
+			"id": "17",
+			"Pregunta": "En el caso de los escarabajos, ¿qué cromosoma determina que sean machos?",
+			"correcta": "El Y",
+			"Respuesta2": "El X",
+			"Respuesta3": "No hay machos"
+		},
+		{
+			"id": "18",
+			"Pregunta": "¿Cuántas especies de pájaros hay?",
+			"correcta": "Unas 10000",
+			"Respuesta2": "Unas 5000",
+			"Respuesta3": "Unas 50000"
+		},
+		{
+			"id": "19",
+			"Pregunta": "¿A partir de que edad se dejan de generar neuronas? ??",
+			"correcta": "Nunca",
+			"Respuesta2": "A los 30 años",
+			"Respuesta3": "A los 60 años"
+		}
+	]},
+	{"preguntas": [{
+			"id": "0",
+			"Pregunta": "La tos ferina es una enfermedad causada por...",
+			"correcta": "Una bacteria",
+			"Respuesta2": "Un virus",
+			"Respuesta3": "Una mutación"
+		},
+		{
+			"id": "1",
+			"Pregunta": "¿De qué especie viene el virus VIH-1, uno de los causantes del SIDA?",
+			"correcta": "De chimpancés",
+			"Respuesta2": "De murciélagos",
+			"Respuesta3": "De mosquitos"
+		},
+		{
+			"id": "2",
+			"Pregunta": "¿De qué especie viene el parásito que causa la malaria en humanos?",
+			"correcta": "Del gorila",
+			"Respuesta2": "Del mosquito",
+			"Respuesta3": "Del murciélago"
+		},
+		{
+			"id": "3",
+			"Pregunta": "¿Qué es la candidiasis?",
+			"correcta": "Una infección por levaduras",
+			"Respuesta2": "La adicción a Candy Crush",
+			"Respuesta3": "Una infección bacteriana"
+		},
+		{
+			"id": "4",
+			"Pregunta": "El SIDA se debe a...",
+			"correcta": "Un virus",
+			"Respuesta2": "Una bacteria",
+			"Respuesta3": "Células sanguíneas"
+		},
+		{
+			"id": "5",
+			"Pregunta": "¿Quién desmontó el mito de que el autismo era debido a madres frías?",
+			"correcta": "Isabelle Rapin",
+			"Respuesta2": "Emma Watson",
+			"Respuesta3": "Meredith Grey"
+		},
+		{
+			"id": "6",
+			"Pregunta": "La deficiencia de yodo puede llevar a...",
+			"correcta": "Desarrollar bocio",
+			"Respuesta2": "Desarrollar autismo",
+			"Respuesta3": "Desarrollar Alzheimer"
+		},
+		{
+			"id": "7",
+			"Pregunta": "¿Para qué sirve la prueba del talón?",
+			"correcta": "Para detectar de forma precoz enfermedades en bebés",
+			"Respuesta2": "Para detectar trastornos neurodegenerativos en personas mayores",
+			"Respuesta3": "Para detectar trastornos de crecimiento en adolescentes"
+		},
+		{
+			"id": "8",
+			"Pregunta": "¿Qué es el test de Apgar?",
+			"correcta": "Un test para recién nacidos",
+			"Respuesta2": "Un test para diagnosticar cáncer de mama",
+			"Respuesta3": "Un test diagnóstico para el síndrome de Asperger"
+		},
+		{
+			"id": "9",
+			"Pregunta": "¿Puede ser el cáncer de mama hereditario?",
+			"correcta": "Sí, un pequeño porcentaje de los casos",
+			"Respuesta2": "Sí, un gran porcentaje de los casos",
+			"Respuesta3": "No"
+		},
+		{
+			"id": "10",
+			"Pregunta": "Una de las terapias contra el cáncer de mama se basa en...",
+			"correcta": "El bloqueo de la producción de estrógeno",
+			"Respuesta2": "El aumento de la producción de estrógeno",
+			"Respuesta3": "El bloqueo de la producción de insulina"
+		},
+		{
+			"id": "11",
+			"Pregunta": "¿Cuándo se consiguió hacer un mapa del VIH, causante del sida?",
+			"correcta": "En 1985",
+			"Respuesta2": "En 2005",
+			"Respuesta3": "En 2015"
+		},
+		{
+			"id": "12",
+			"Pregunta": "¿Cuál de estas enfermedades no está relacionada con proteínas mal dobladas?",
+			"correcta": "Anemia",
+			"Respuesta2": "Enfermedad de las vacas locas",
+			"Respuesta3": "Alzheimer"
+		},
+		{
+			"id": "13",
+			"Pregunta": "¿Puede la leucemia ser causada por mutaciones?",
+			"correcta": "Sí",
+			"Respuesta2": "No",
+			"Respuesta3": "Aún no lo sabemos"
+		},
+		{
+			"id": "14",
+			"Pregunta": "La diabetes de tipo II está relacionada con...",
+			"correcta": "La resistencia a la insulina",
+			"Respuesta2": "Mal funcionamiento del riñón",
+			"Respuesta3": "Un bazo superactivo"
+		},
+		{
+			"id": "15",
+			"Pregunta": "¿Qué es el síndrome del bebé azul? ????",
+			"correcta": "Bebés con piel azulada por falta de oxígeno",
+			"Respuesta2": "Bebés con piel azulada por falta de melanina",
+			"Respuesta3": "Bebés con pelo azul por falta de melanina"
+		},
+		{
+			"id": "16",
+			"Pregunta": "Durante la guerra de Crimea (1853) la principal causa de muerte de los soldados heridos fue...",
+			"correcta": "Enfermedades como tifus y cólera",
+			"Respuesta2": "Heridas de guerra",
+			"Respuesta3": "Suicidio"
+		},
+		{
+			"id": "17",
+			"Pregunta": "¿Qué es la transmisión cruzada de infecciones?",
+			"correcta": "Infección desde un paciente a otros pacientes o personal sanitario",
+			"Respuesta2": "La transmisión de enfermedades de madres a sus bebés",
+			"Respuesta3": "Cuando dos infecciones se reproducen y dan lugar a una nueva infección"
+		},
+		{
+			"id": "18",
+			"Pregunta": "¿Cuál es la principal causa de problemas en los trasplantes?",
+			"correcta": "Rechazo inmunológico",
+			"Respuesta2": "Infecciones durante la operación",
+			"Respuesta3": "El órgano donado no estaba en buen estado"
+		},
+		{
+			"id": "19",
+			"Pregunta": "¿Cuál de estos tratamientos se puede utilizar contra la leucemia?",
+			"correcta": "Un trasplante de médula ósea",
+			"Respuesta2": "Un transplante de bazo",
+			"Respuesta3": "Un trasplante de las glóndulas endocrinas"
+		}
+	]},
+	{"preguntas": [{
+			"id": "0",
+			"Pregunta": "¿Cuándo se hizo el primer programa de ordenador?",
+			"correcta": "1842",
+			"Respuesta2": "1912",
+			"Respuesta3": "1945"
+		},
+		{
+			"id": "1",
+			"Pregunta": "¿Quién inventó el término ingeniería de software?",
+			"correcta": "Margaret Hamilton",
+			"Respuesta2": "Alan Turing",
+			"Respuesta3": "Ada Lovelace"
+		},
+		{
+			"id": "2",
+			"Pregunta": "¿Qué es un lenguaje de programación independiente de la máquina?",
+			"correcta": "El que puede compilarse para ejecutarse en hardware diverso",
+			"Respuesta2": "El que no depende de una máquina para ejecutarse",
+			"Respuesta3": "El que no se escribe con una máquina"
+		},
+		{
+			"id": "3",
+			"Pregunta": "¿Cuál de estos estuvo entre los primeros ordenadores completamente digitales?",
+			"correcta": "ENIAC",
+			"Respuesta2": "HAL",
+			"Respuesta3": "RATS"
+		},
+		{
+			"id": "4",
+			"Pregunta": "¿Quién inventó un sistema secreto de comunicaciones durante la Segunda Guerra Mundial para controlar torpedos?",
+			"correcta": "Hedy Lamarr",
+			"Respuesta2": "Greta Garbo",
+			"Respuesta3": "Vera Kerbal"
+		},
+		{
+			"id": "5",
+			"Pregunta": "¿Quién inventó el diseñoo de las jeringas modernas?",
+			"correcta": "Letitia Geer",
+			"Respuesta2": "Iggy Pop",
+			"Respuesta3": "Florence Nightingale"
+		},
+		{
+			"id": "6",
+			"Pregunta": "¿Para qué sirve un astrolabio?",
+			"correcta": "Para medir la inclinación de las estrellas",
+			"Respuesta2": "Para resolver ecuaciones diferenciales",
+			"Respuesta3": "Para hacer sumas rápidamente"
+		},
+		{
+			"id": "7",
+			"Pregunta": "¿Cuándo se inventó el primer lavavajillas automático?",
+			"correcta": "1893",
+			"Respuesta2": "1953",
+			"Respuesta3": "1603"
+		},
+		{
+			"id": "8",
+			"Pregunta": "¿Hacia qué sector estuvo enfocado el lenguaje COBOL?",
+			"correcta": "Sector de negocios",
+			"Respuesta2": "COdiseño de BOLudos",
+			"Respuesta3": "Sector científico"
+		},
+		{
+			"id": "9",
+			"Pregunta": "¿Cuándo se inventó el primer sistema informático para encontrar pareja?",
+			"correcta": "1964",
+			"Respuesta2": "1994",
+			"Respuesta3": "2004"
+		},
+		{
+			"id": "10",
+			"Pregunta": "¿Qué quiere decir DNS?",
+			"correcta": "Domain Name System",
+			"Respuesta2": "Do Not Suck",
+			"Respuesta3": "Donor National Service"
+		},
+		{
+			"id": "11",
+			"Pregunta": "¿Qué tamaño tenía el que se considera el primer minicomputador?",
+			"correcta": "Una nevera",
+			"Respuesta2": "Una caja de zapatos",
+			"Respuesta3": "Un coche"
+		},
+		{
+			"id": "12",
+			"Pregunta": "¿Cuántas mujeres han ganado alguno de los 52 premios Turing concedidos, el Nobel de la informática?",
+			"correcta": "3",
+			"Respuesta2": "0",
+			"Respuesta3": "20"
+		},
+		{
+			"id": "13",
+			"Pregunta": "¿Cuál se considera el primer videojuego de aventura gráfica? ??",
+			"correcta": "Mystery House",
+			"Respuesta2": "Monkey Island",
+			"Respuesta3": "AstroChat"
+		},
+		{
+			"id": "14",
+			"Pregunta": "¿Cuáll es el origen de la palabra computadora?",
+			"correcta": "Personas que hacían cálculos",
+			"Respuesta2": "Viene de computación: ruso para ordenador",
+			"Respuesta3": "Viene de la marca del primer ordenador comercial, Computerix"
+		},
+		{
+			"id": "15",
+			"Pregunta": "¿Cuándo se empezaron a comercializar las copas menstruales?",
+			"correcta": "1937",
+			"Respuesta2": "2005",
+			"Respuesta3": "1970"
+		},
+		{
+			"id": "16",
+			"Pregunta": "¿De cuándo es la primera patente de un libro mecánico?",
+			"correcta": "1949",
+			"Respuesta2": "1979",
+			"Respuesta3": "1679"
+		},
+		{
+			"id": "17",
+			"Pregunta": "Los primeros tests caseros con tiras reactivas para usar con la orina fueron para...",
+			"correcta": "Medir niveles de glucosa",
+			"Respuesta2": "Saber si estabas embarazada",
+			"Respuesta3": "Hacer un diagnóstico precoz de miopía"
+		},
+		{
+			"id": "18",
+			"Pregunta": "¿Qué es la computación paralela?",
+			"correcta": "La que se desarrolla simultáneamente en varios procesadores o máquinas",
+			"Respuesta2": "La que utiliza los recursos de forma óptima",
+			"Respuesta3": "La que encuentra los paralelismos"
+		},
+		{
+			"id": "19",
+			"Pregunta": "¿Qué es el lenguaje ensamblador?",
+			"correcta": "Un lenguaje de programación de bajo nivel",
+			"Respuesta2": "El lenguaje de programación que se usa en las fábricas",
+			"Respuesta3": "Un lenguaje que se habla en Ensamblia"
+		}
+	]}
+]
