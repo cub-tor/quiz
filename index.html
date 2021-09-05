@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <title>Trivial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>Trivial Científico</header>
+    <main>
+    <div id="dibujo" class="tarjeta">
+      <div id="instrucciones">
+        <p><br></p>
+        <p><b>Instrucciones</b></p>
+       <ol>
+        <li>Haz click en una de las tres opciones</li>
+        <li>Haz click en el botón responder</li>
+        <li>Si la respuesta es incorrecta el círculo de la categoría correspondiente se volverá rojo</li>
+        <li>Si la respuesta es correcta el círculo se coloreará del color correspondiente a la categoría</li>
+        <li>Una vez que completes todos los círculos, pulsa el botón de Volver a jugar</li>
+       </ol>
+       <p>¡Recuerda que el rojo significa que está mal!</p>
+      </div>
+      <div>
+       <img id="adorno" src="https://cdn.pixabay.com/photo/2012/04/02/13/57/chemical-reaction-24562__340.png"/>
+      </div>
+    </div>
+     <div id="trivial" class="tarjeta">
+       <div id="cabecera">
+         <p id="categoria"></p>
+         <img id="imagen"/>
+         <h1>
+         <p id="pregunta">
+         </p>
+         <hr />
+         </h1>
+       </div>
+       <div id="respuestas">         
+            <div class="R1 res">
+            <input type="radio" id="R1" name="respuesta" value="R1" />
+            <label id="labelR1" for="R1"> </label><br />
+            </div>
+            <div class="R2 res">
+            <input type="radio" id="R2" name="respuesta" value="R2" />
+            <label id="labelR2" for="R2"> </label><br />
+            </div>
+            <div class="R3 res">
+            <input type="radio" id="R3" name="respuesta" value="R3" />
+            <label id="labelR3" for="R3"> </label><br />
+            </div>        
+       </div>
+       <div>
+        <button id="respuesta" onclick="processAnswer()">Responder</button>
+       </div> 
+     </div>
+     <div id="resultado">
+       <div id="cuadroExterno">  
+        <div class="etiquetaTema">Física<div class="cuadroInterno" id="tema0"></div></div>     
+         <div class="etiquetaTema">Química<div class="cuadroInterno" id="tema1"></div></div>
+         <div class="etiquetaTema">Matemáticas<div class="cuadroInterno" id="tema2"></div></div>
+         <div class="etiquetaTema">Ciencias Naturales<div class="cuadroInterno" id="tema3"></div></div>
+         <div class="etiquetaTema">Medicina<div class="cuadroInterno" id="tema4"></div></div>
+         <div class="etiquetaTema">Tecnología<div class="cuadroInterno" id="tema5"></div></div>         
+       </div>
+       <div id="reset"></div>
+     </div>
+    </main>
+   <script type="text/javascript" src="funciones/index.js"></script>
+  </body>
+</html>
