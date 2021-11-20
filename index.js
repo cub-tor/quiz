@@ -2,6 +2,7 @@ let questions = [];
 let category = -1;
 let currentQuestion = 0;
 
+//Ejemplo para ver con git las diferencias
 
 //Llamar al JSON
 const getData = () => {
