@@ -1,11 +1,14 @@
 const mysql = require('mysql');
+const dotenv = require('dotenv'); // Importa dotenv
+
+dotenv.config(); // Carga las variables de entorno desde .env
 
 const connection = mysql.createConnection({
-  host: 'bhdmldn5iqrc9jer9kqe-mysql.services.clever-cloud.com',//host: 'localhost',
-  user: 'ucsqlozwph4we0cc', //user: 'usuario',
-  password: 'bKeaNdtQ9Rdelo36iHLz', //password: '1234',
-  database: 'bhdmldn5iqrc9jer9kqe', //database: 'quiz',
-  port: 3306
+  host: process.env.DB_HOST,//host: 'localhost',
+  user: process.env.DB_USER, //user: 'usuario',
+  password: process.env.DB_PASSWORD, //password: '1234',
+  database: process.env.DB_NAME, //database: 'quiz',
+  port: process.env.DB_PORT // port: 3306
 });
 
 connection.connect(error => {
