@@ -26,7 +26,7 @@ var corsOptions = {
 
 
 // Habilitar CORS para todas las peticiones
-app.use(cors(corsOptions));
+app.use(cors());//app.use(cors(corsOptions));
 
 // Configura el middleware para analizar el contenido del JSON 
 app.use(bodyParser.json());
