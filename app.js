@@ -20,7 +20,7 @@ const cors = require('cors');
 var corsOptions = {
   origin: ' http://localhost:5173/',//remplazar con dominio
   credentials:true,
-  optionSuccessStatus: 200
+  optionSuccessStatus: 200  
 }
 
 
@@ -54,9 +54,9 @@ app.use((err, req, res, next) => {
 
 
 // Iniciar el servidor
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log(`Servidor corriendo en http://localhost:\${port}`);
+  console.log(`Servidor corriendo en puerto ${port}`);
 });
 
 

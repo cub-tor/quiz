@@ -5,7 +5,7 @@ const connection = require('./connection');
 //Buscar un jugador
 const getJugador = (email) => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM jugador WHERE email = ?', [email], (error, results) => {
+    connection.query('SELECT * FROM JUGADOR WHERE email = ?', [email], (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -18,7 +18,7 @@ const getJugador = (email) => {
 //Crear un jugador
 const newJugador = (nombre, email) => {//Tengo que meter nombre (nombre, email) si lo quiero
   return new Promise((resolve, reject) => {//Tengo que meter [nomre,email] si quiero el nombre
-    connection.query('INSERT INTO jugador (nombre, email, puntos_totales) VALUES (?, ?, 0)', [nombre, email], (error, results) => {
+    connection.query('INSERT INTO JUGADOR (nombre, email, puntos_totales) VALUES (?, ?, 0)', [nombre, email], (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -30,7 +30,7 @@ const newJugador = (nombre, email) => {//Tengo que meter nombre (nombre, email) 
 
 const getPartida = (email) => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM partida WHERE email=? ', [email], (error, results) => {
+    connection.query('SELECT * FROM PARTIDA WHERE email=? ', [email], (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -43,7 +43,7 @@ const getPartida = (email) => {
 //Actualiza el campo id_partida en la tabla JUGADOR 
 const updatePartidaJugador=(idPartida,email)=> {
   return new Promise((resolve, reject) => {
-    connection.query('UPDATE jugador SET id_partida=? WHERE email=? ', [idPartida,email], (error, results) => {
+    connection.query('UPDATE JUGADOR SET id_partida=? WHERE email=? ', [idPartida,email], (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -130,7 +130,7 @@ const getLastPartida = () => {
 
 const getCategoria = () => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM categoria', (error, results) => {
+    connection.query('SELECT * FROM CATEGORIA', (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -142,7 +142,7 @@ const getCategoria = () => {
 
 const getContiene = () => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM contiene', (error, results) => {
+    connection.query('SELECT * FROM CONTIENE', (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -154,7 +154,7 @@ const getContiene = () => {
 
 const getPreguntas = () => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM pregunta', (error, results) => {
+    connection.query('SELECT * FROM PREGUNTA', (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -166,7 +166,7 @@ const getPreguntas = () => {
 
 const getPreguntasCategoria = (categoriaActual) => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM pregunta WHERE nombre_categoria = ? ', categoriaActual, (error, results) => {
+    connection.query('SELECT * FROM PREGUNTA WHERE nombre_categoria = ? ', categoriaActual, (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -178,7 +178,7 @@ const getPreguntasCategoria = (categoriaActual) => {
 
 const getPreguntaRespuestas = (id_pregunta) => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM respuesta r JOIN pregunta p ON r.id_pregunta = p.id_pregunta WHERE p.id_pregunta = ?', id_pregunta, (error, results) => {
+    connection.query('SELECT * FROM RESPUESTA r JOIN PREGUNTA p ON r.id_pregunta = p.id_pregunta WHERE p.id_pregunta = ?', id_pregunta, (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -191,7 +191,7 @@ const getPreguntaRespuestas = (id_pregunta) => {
 
 const getRespuestas = () => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM respuesta', (error, results) => {
+    connection.query('SELECT * FROM RESPUESTA', (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -215,7 +215,7 @@ const getRespuestas = () => {
 
 const getRespuestaCorrecta = (id_pregunta, id_respuesta) => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM respuesta WHERE id_pregunta=? AND id_respuesta=? AND es_correcta = 1', [id_pregunta, id_respuesta], (error, results) => {
+    connection.query('SELECT * FROM RESPUESTA WHERE id_pregunta=? AND id_respuesta=? AND es_correcta = 1', [id_pregunta, id_respuesta], (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -302,7 +302,7 @@ const actualizarPuntuacion = (email, puntos) => {
 //consulta la base de datos para obtener la partida actual asociada a un jugador
 const getPartidaActualJugador = (email) => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT * FROM jugador WHERE email=?', [email], (error, results) => {
+    connection.query('SELECT * FROM JUGADOR WHERE email=?', [email], (error, results) => {
       if (error) {
         reject(error);
       } else {
@@ -324,7 +324,7 @@ const getPartidaActualJugador = (email) => {
 //obtiene la puntuación de una partida desde la tabla PARTIDA
 const getPuntuacionPartida = (email) => {
   return new Promise((resolve, reject) => {
-    connection.query('SELECT puntos_partida FROM partida WHERE PARTIDA.email = ? AND id_partida = (SELECT id_partida FROM JUGADOR WHERE email = ?)', [email, email], (error, results) => {
+    connection.query('SELECT puntos_partida FROM PARTIDA WHERE PARTIDA.email = ? AND id_partida = (SELECT id_partida FROM JUGADOR WHERE email = ?)', [email, email], (error, results) => {
       if (error) {
         reject(error);
       } else {
