@@ -18,7 +18,8 @@ const app = express();
 //Va después de app porque lo ocupa
 const cors = require('cors');
 var corsOptions = {
-  origin: ' http://localhost:5173/',//remplazar con dominio
+  //origin: ' http://localhost:5173/',remplazar con dominio
+  origin: ' https://quiz-2023-385907.web.app/',
   credentials:true,
   optionSuccessStatus: 200  
 }
