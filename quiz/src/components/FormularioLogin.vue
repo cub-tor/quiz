@@ -4,7 +4,7 @@
         <form @submit.prevent = "handleSubmit" class="d-flex flex-column justify-content-center align-items-center mt-3">
             <input type="nombre" placeholder="nombre" v-model = "nombre" class="form-control">
             <input type="email" placeholder="ejemplo@email.com" v-model = "email" class="form-control">
-            <input type="password" placeholder="constraseña" v-model = "password" class="form-control">
+            <input type="password" placeholder="contraseña" v-model = "password" class="form-control">
             
             <div class="d-flex flex-row justify-content-center align-items-center mt-2">
               <button type= "submit" class="btn btn-primary px-2">Login</button>
@@ -32,13 +32,23 @@ export default {
     const nombre = ref('');
     const email = ref('');
     const password = ref('');
-    
+    var localMode=false;
+
+    function URLServer() {
+      if (localMode) {
+        return 'http://localhost:3000';
+      }
+      else {
+        return 'https://app-f1c0fd3b-2baa-473b-804c-fd15fd625772.cleverapps.io';
+      }
+    }
 
     
 
     async function enviarDatosAlServidor() {
       try {
-        const response = await axios.post("http://localhost:3000/login", {
+        //const response = await axios.post("http://localhost:3000/login", {
+        const response = await axios.post(`${URLServer()}/login`, {
           nombre: nombre.value,
           email: email.value
           //password: password.value,
@@ -112,7 +122,8 @@ export default {
       logoutUser,
       router,
       user,
-      updateEmail
+      updateEmail,
+      URLServer
     };
   },
 };

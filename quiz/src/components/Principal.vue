@@ -86,14 +86,14 @@ export default {
     const data = ref({ puntuacionTotal: 0 });
     const dataPartida = ref({puntos_partida: 0});
     //const claseCirculo = ref('');
-    var localMode=true;
+    var localMode=false;
 
     function URLServer() {
       if (localMode) {
         return 'http://localhost:3000';
       }
       else {
-        return 'https://elsapi.com';
+        return 'https://app-f1c0fd3b-2baa-473b-804c-fd15fd625772.cleverapps.io';
       }
     }
 
@@ -484,7 +484,7 @@ function colorGoodScore(id) {
   font-family: 'White Wonder', cursive;
   background-image: url(https://c1.wallpaperflare.com/preview/184/716/976/chalkboard-slate-green-blackboard.jpg);
   background-repeat: no-repeat;
-  background-size: 950px 500px;
+  background-size: 700px 600px;
   min-height: 60%;
   margin: 3% 0% 0% 10%;
   display: grid;
@@ -524,7 +524,7 @@ function colorGoodScore(id) {
   flex-grow: 1;
   text-align:right; /* Añade esta propiedad */
   width: 100%;
-  margin-right: 50%;
+  margin-right: 45%;
   margin-top: 5%;
   
 }
@@ -544,13 +544,13 @@ function colorGoodScore(id) {
 
 .pregunta {
   color: white;
-  width: 80%;
+  width: 120%;
   height: 50px;
   display: flex;
   align-items: center;
   text-align: center;
   margin-bottom: 3%;
-  
+  margin-left:auto;
   
 }
 
@@ -582,7 +582,7 @@ function colorGoodScore(id) {
   flex-direction: row;
   background-color: gainsboro;
   color: white;
-  margin-top:5%;
+  margin-top:15%;
   margin-bottom: 150%;
   margin-left: 45%;
   text-align: center;
@@ -601,7 +601,7 @@ function colorGoodScore(id) {
   justify-content: center;
   padding: 10%;
   margin-top: 80%;
-  margin-left: 300%;
+  margin-left: 150%;
 
 }
 .cuadroInterno {
@@ -651,12 +651,13 @@ function colorGoodScore(id) {
     width: 60%;
     height: 36%;
     margin-top: 5%;
+    background-size: 300px 400px;
     
   }
   #interiorPizarra {
     align-items: center;
     margin-top: 25%;
-    margin-left: 30%;
+    margin-left: 20%;
   }
   .categoria {
     font-size:small;
@@ -664,12 +665,14 @@ function colorGoodScore(id) {
   }
   .pregunta{
     font-size:small;
+    margin-top: 5%;
   }
   .respuestas {
     font-size:small;
   }
   .botones {
     font-size: small;
+    flex-direction: column;
   }
   #resultado {
     width:25%;
@@ -680,6 +683,7 @@ function colorGoodScore(id) {
     width: 20%;
     height: 20%;
     margin-left: 15%;
+    border: 0;
     
    }
 
