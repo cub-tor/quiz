@@ -525,7 +525,7 @@ function colorGoodScore(id) {
   text-align:right; /* Añade esta propiedad */
   width: 100%;
   margin-right: 45%;
-  margin-top: 5%;
+  margin-top: 10%;
   
 }
 
@@ -701,6 +701,8 @@ function colorGoodScore(id) {
     height: 40%;;
     align-self: flex-start;
     margin-top: 5%;
+    background-size: 300px 400px;
+    margin-left: auto;
   }
 
   #interiorPizarra {
@@ -736,6 +738,7 @@ function colorGoodScore(id) {
 
   .botones {
     font-size: small;
+    flex-direction: column;
   }
 
  
