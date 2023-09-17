@@ -14,6 +14,7 @@ Frontend for a scientific quiz project where questions are categorized and answe
 - CSS
 - Vue.js
 - JavaScript
+- Firebase (Authentication for login)
 
 ## Screenshot
 
