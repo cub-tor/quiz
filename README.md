@@ -24,6 +24,8 @@ Frontend for a scientific quiz project where questions are categorized and answe
 
 <img src="https://github.com/cub-tor/quiz/assets/90109229/be88b78d-46f1-42f6-b403-e898a537f4d6">
 
+<img src="https://github.com/cub-tor/quiz/assets/90109229/eca1ba2e-3068-4250-ad86-5da269007d53">
+
 
 
 ## Web
