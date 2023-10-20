@@ -4,9 +4,9 @@ Frontend for a scientific quiz project where questions are categorized and answe
 
 ## Key Features
 
-- [ ] Add songs to the list via a form.
-- [ ] Capture song title, author, and audio format.
-- [ ] Display the list of songs on the screen.
+- [ ] Sign in or sign up to access the game.
+- [ ] Read the instructions.
+- [ ] Read the questions and choose the answers.
 
 ## Technologies Used
 
